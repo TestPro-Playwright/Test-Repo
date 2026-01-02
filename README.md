@@ -50,4 +50,3 @@ The playwright.config.js file contains various settings:
 4.	Push to the branch
 5.	Create a Pull Request
 
-<img width="451" height="708" alt="image" src="https://github.com/user-attachments/assets/ab7aa7c6-2469-4c42-8294-96ec908eeb9c" />
