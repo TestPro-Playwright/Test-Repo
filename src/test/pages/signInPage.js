@@ -30,7 +30,6 @@ exports.SignInPage = class SignInPage extends BasePage {
         await this.page.locator('#password').fill(secondUser ? testConfig.TestEnvSecondUserPassword : testConfig.TestEnvLoginPassword);
         await expect(this.loginButtonLocator).toBeEnabled();
         await this.loginButtonLocator.click();
-
         await this.page.waitForTimeout(signInDelay);
     }
 
